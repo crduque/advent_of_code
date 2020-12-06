@@ -2,8 +2,6 @@ def  valid_password ():
 
     input_file = open("d2-1-input.txt", "r")
 
-    # input_file = ["1-3 a: abcade", "1-3 b: cdefg", "2-9 c: ccccccccc"]
-
     valid_passwords = 0
 
     for row in input_file:
